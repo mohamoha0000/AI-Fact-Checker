@@ -8,8 +8,8 @@ An AI-powered news verification tool that determines whether a news claim is Rea
 
 This project is a fully functional experimental fact-checking system built using:
 
-- Google Search API (via RapidAPI)
-- Mistral Large Language Model
+- Google Search Open API (via RapidAPI)
+- Mistral AI Large Language Model
 - Multi-round AI reasoning
 - Confidence scoring system
 - Strict entity matching (names, titles, countries)
@@ -22,11 +22,46 @@ The system generates strategic search queries, analyzes headlines only, evaluate
 
 Total development cost: **0 USD**
 
-This project was built entirely using:
-- Free-tier APIs
-- Free development tools
-- No paid infrastructure
-- No paid marketing
+All APIs used to run this tool are available with free tiers.
+
+No paid infrastructure.  
+No paid backend.  
+No paid hosting required.  
+
+This project can run entirely using free API plans.
+
+---
+
+## 🔗 APIs Used
+
+### 🤖 Mistral AI
+Official Website:
+https://mistral.ai
+
+API Documentation:
+https://docs.mistral.ai
+
+Used for:
+- Query generation
+- Headline evaluation
+- Fact-check reasoning
+- Confidence scoring
+
+Free tier available.
+
+---
+
+### 🔎 Google Search Open API (RapidAPI)
+
+RapidAPI Marketplace Page:
+https://rapidapi.com/moham3iof/api/google-search-open
+
+Used for:
+- Fetching Google search headlines
+- Returning article titles and URLs
+- Multi-round evidence gathering
+
+Free tier available on RapidAPI.
 
 ---
 
@@ -58,10 +93,10 @@ This project was built entirely using:
 - Python 3
 - requests
 - python-dotenv
-- RapidAPI Google Search
-- Mistral Large LLM API
+- RapidAPI
+- Mistral AI API
 
-Trusted news domains used in later search rounds:
+Trusted domains prioritized in later search rounds:
 - reuters.com
 - apnews.com
 - bbc.com
@@ -154,4 +189,4 @@ MIT License
 
 ---
 
-Built as an experimental zero-cost AI fact-checking system.
+Built as a zero-cost AI fact-checking system using free API tiers.
