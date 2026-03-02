@@ -109,8 +109,8 @@ Trusted domains prioritized in later search rounds:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/mohamoha0000/AI-Fact-Checker.git
+cd 'AI-Fact-Checker'
 ```
 
 ### 2. Install Dependencies
