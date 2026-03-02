@@ -149,7 +149,7 @@ Type `quit` to exit.
 
 Input:
 ```
-Iran attacked Israel in 2026
+USA WIN WORLD CUP FOOTBALE in 2022
 ```
 
 Output:
