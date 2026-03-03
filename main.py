@@ -1,6 +1,6 @@
 """
 AI-Powered Automated Fact-Checking Agent
-This script uses Mistral AI and a Google Search API to autonomously verify news claims.
+This script uses Mistral AI and a Google Search open API from rapidapi to autonomously verify news claims.
 It acts as an AI agent that generates its own search queries, analyzes search results,
 and builds cumulative confidence to determine if a claim is Real or Fake.
 """
